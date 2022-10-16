@@ -20,6 +20,17 @@ read repoName
 curl "https://api.github.com/repos/${username}/${repoName}.git"
 # If repository exits then
 
+
+echo "Enter commit message"
+        read commitMessage
+        git add -A
+        git commit -am "$commitMessage"
+        git push -f origin master
+ echo "Files pushed to GitHub"
+
+
+
+
 if [ $? -eq 0 ]; then
     cd $repoName
     # Display unstaged files
