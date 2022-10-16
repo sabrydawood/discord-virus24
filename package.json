@@ -1,0 +1,28 @@
+{
+  "name": "discord-virus24",
+  "version": "1.0.3",
+  "description": "A package to create profishnal profile card and more for your discord bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./testing/index.js",
+    "start": "node ./testing/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virgel1995/discord-virus24.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virgel1995/discord-virus24/issues"
+  },
+  "homepage": "https://github.com/virgel1995/discord-virus24#readme",
+  "dependencies": {
+    "canvas": "^2.10.1",
+    "chalk": "^4.1.2",
+    "discord-virus24": "^1.0.3",
+    "discord.js": "^14.6.0",
+    "gifencoder": "^2.0.1"
+  }
+}
