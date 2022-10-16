@@ -183,6 +183,7 @@ const attachment = new AttachmentBuilder(image.toBuffer(), { name: 'FireSmoke.pn
 # Fire Card
 <h2> Make sure this card didnt need `toBuffer()` because its alredy declared if you add it it will returns an `png` image not `gif` </h2>
 <h1> Example </h1>
+
 ```js
 const { FireCard } = require("discord-virus24")
 client.on('messageCreate', async message => {
