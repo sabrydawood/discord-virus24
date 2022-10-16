@@ -93,7 +93,7 @@ GatewayIntentBits.GuildPresences
   ```
 
 ```js
-const { ProfileCard ,WelcomeCard, GodByeCard }=require(`diacord-virus24`)
+const { WelcomeCard, GodByeCard }=require(`diacord-virus24`)
 client.on('messageCreate', async message => {
 	if (message.content === 'P') {
   //to get online/offline ....
@@ -174,6 +174,23 @@ let image = await new FireSmokeCard()
 .setAvatar(message.author.displayAvatarURL({extension: 'jpg'})) 
 .toAttachment();
 const attachment = new AttachmentBuilder(image.toBuffer(), { name: 'FireSmoke.png' });
+
+		message.channel.send({ files: [attachment] });
+  }
+});
+```
+
+# Fire Card
+<h2> Make sure this card didnt need `toBuffer()` because its alredy declared if you add it it will returns an `png` image not `gif` </h2>
+<h1> Example </h1>
+```js
+const { FireCard } = require("discord-virus24")
+client.on('messageCreate', async message => {
+	if (message.content === 'P') {
+let image = await new FireCard()
+.setAvatar(message.author.displayAvatarURL({extension: 'jpg'})) 
+.toAttachment();
+const attachment = new AttachmentBuilder(image, { name: 'Fire.gif' });
 
 		message.channel.send({ files: [attachment] });
   }
