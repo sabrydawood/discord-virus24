@@ -30,10 +30,10 @@ if [ $? -eq 0 ]; then
         echo "There are uncommited and unstatged files. Commit them before pushing"
         echo "Enter commit message"
         read commitMessage
-        git add .
-        git commit -m "$commitMessage"
+        git add -A
+        git commit -am "$commitMessage"
         git push -f origin master
-        echo "Files pushed to GitHub"
+        echo "Files pushed to GitHub" 
         # else push all commited and staged files to remote repo
     else
         git push -f origin master
