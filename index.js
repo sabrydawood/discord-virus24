@@ -6,3 +6,5 @@ module.exports.GodByeCard = require('./src/Welcome/GodBye.js');
 
 module.exports.FireSmokeCard = require('./src/Fun/FireSmoke.js');
 module.exports.FireCard = require('./src/Fun/Fire.js');
+module.exports.PetPet = require('./src/Fun/PetPet.js');
+
