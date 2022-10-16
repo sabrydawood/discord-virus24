@@ -1,6 +1,6 @@
 {
   "name": "discord-virus24",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A package to create profishnal profile card and more for your discord bot",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,6 @@
   "dependencies": {
     "canvas": "^2.10.1",
     "chalk": "^4.1.2",
-    "discord-virus24": "^1.0.3",
-    "discord.js": "^14.6.0",
     "gifencoder": "^2.0.1"
   }
 }
