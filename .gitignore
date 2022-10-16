@@ -3,3 +3,4 @@ node_modules
 .replit
 replit.nix
 .git
+run.sh
