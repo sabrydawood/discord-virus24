@@ -1,10 +1,10 @@
 # discord-virus24
 A package to create profishnal profile card and more for your discord bot
 
-# PROFILE CARD
+## PROFILE CARD
 <img src="https://media.discordapp.net/attachments/800368245218476083/1024439816080867348/profile-image.png" width="800" />
 
-# Basic Usage
+##  Usage
 ```js
 const { ProfileCard }=require(`diacord-virus24`)
 // ......
