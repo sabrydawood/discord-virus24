@@ -4,3 +4,4 @@ node_modules
 replit.nix
 .git
 run.sh
+testing/config.json
