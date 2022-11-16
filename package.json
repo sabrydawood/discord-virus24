@@ -1,6 +1,6 @@
 {
   "name": "discord-virus24",
-  "version": "1.0.4",
+  "version": "1.0.6-beta",
   "description": "A package to create profishnal profile card and more for your discord bot",
   "main": "index.js",
   "scripts": {
