@@ -27,7 +27,7 @@ const stream = encoder.createReadStream();
 encoder.start();
 encoder.setRepeat(0);
 encoder.setDelay(100);
-encoder.setQuality(200);
+encoder.setQuality(100);
 for (let i = 0; i < frameCount; i += 2) {
   const frameID = `frame-${i.toString().padStart(2, '0')}`;
  const frame = await Canvas.loadImage(`${__dirname}/../../assets/fire/${frameID}.png`);

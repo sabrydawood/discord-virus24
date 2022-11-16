@@ -2,7 +2,9 @@
 const require = createRequire(import.meta.url);*/
 const { ProfileCard , WelcomeCard,GodByeCard ,
       FireSmokeCard,
-       FireCard
+       FireCard,
+PetPetCard
+
       }= require("../index.js") ;
 const { Client, Intents,GatewayIntentBits, AttachmentBuilder, Guild } = require('discord.js');
 
@@ -24,7 +26,7 @@ client.once('ready', () => {
 
 client.on('messageCreate', async message => {
 	if (message.content === 'P') {
-let image = await new FireCard()
+let image = await new PetPetCard()
 .setAvatar(message.author.displayAvatarURL({extension: 'jpg'})) 
 .toAttachment();
 const attachment = new AttachmentBuilder(image, { name: 'Fire.gif' });
