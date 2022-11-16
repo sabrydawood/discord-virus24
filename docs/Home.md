@@ -3,17 +3,17 @@
 ## 🔷 __Package Map__ 🔷
 
 ### ___User___ 
-* [ProfileCard](/docs/Profile)
+* [ProfileCard](https://virgel1995.github.io/discord-virus24/docs/Profile)
  
 ### ___Guild___
-* [WelcomeCard](/docs/Welcome)
-* [GoodByeCard](/docs/Goodbye)
+* [WelcomeCard](https://virgel1995.github.io/discord-virus24/docs/Welcome)
+* [GoodByeCard](https://virgel1995.github.io/discord-virus24/docs/Goodbye)
 
 ### ___Fun___ 
-* [FireCard](/docs/Fire)
-* [FireSmokeCard](/docs/FireSmoke)
-* [HeartsCard](/docs/Hreats)
-* [PetPet](/docs/PetPet)
+* [FireCard](https://virgel1995.github.io/discord-virus24/docs/Fire)
+* [FireSmokeCard](https://virgel1995.github.io/discord-virus24/docs/FireSmoke)
+* [HeartsCard](https://virgel1995.github.io/discord-virus24/docs/Hreats)
+* [PetPet](https://virgel1995.github.io/discord-virus24/docs/PetPet)
 
 ## 🔷 __Download Links__ 🔷
 * [Npm](https://www.npmjs.com/package/discord-virus24)  

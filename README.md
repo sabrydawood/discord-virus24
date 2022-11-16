@@ -7,4 +7,4 @@
 
 A package to create profishnal profile card and more for your discord bot
 
-* [Read Docs](https://virgel1995.github.io/discord-virus24/docs/Home.md)
+* [Read Docs](https://virgel1995.github.io/discord-virus24/docs/Home)
