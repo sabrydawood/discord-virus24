@@ -8,3 +8,5 @@
 A package to create profishnal profile card and more for your discord bot
 
 * [Read Docs](https://clony.vercel.app/)
+
+<!-- Security scan triggered at 2025-11-24 23:38:49 -->
